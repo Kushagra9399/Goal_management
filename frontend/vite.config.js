@@ -9,7 +9,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'https://goal-management-51k4.onrender.com',
         changeOrigin: true,
       },
     },
